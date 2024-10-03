@@ -1,0 +1,21 @@
+-usar versión 10 de laravel 
+--php artisan ui bootstrap
+--php artisan ui bootstrap --auth
+--npm install && npm run dev (separados si no sale error )
+
+--php artisan make:model Model -mcr (+migración de bd + controlador + recursos ) 
+	o en el controlador usar validaciones pero por tiempo solo fue un crud no mas
+
+composer require ibex/crud-generator --dev
+php artisan vendor:publish --tag=crud
+php artisan make:crud nametable
+(crear el crud por defecto )
+
+_____
+
+java crud 
+ jdk 17 + Maven + mysql
+vlidacion
+loombok 
+api rest
+
